@@ -7,11 +7,11 @@ The One SDK is a JavaScript client SDK that provides a simple way to access the 
 To install the SDK, you can use NPM or Yarn:
 
 ```sh
-npm install the-one-api-sdk
+npm install rynoronha-the-one-sdk
 ```
 
 ```sh
-yarn add the-one-api-sdk
+yarn add rynoronha-the-one-sdk
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ yarn add the-one-api-sdk
 To use the SDK, you need to create an instance of the TheOneSDK class and provide your access token:
 
 ```js
-import TheOneSDK from "the-one-api-sdk";
+import TheOneSDK from "rynoronha-the-one-sdk";
 
 const sdk = new TheOneSDK("your_access_token");
 ```
@@ -60,7 +60,7 @@ The `getMovieDetails` method returns an object with the following properties:
 Here's an example of how to use the SDK to retrieve details for a movie:
 
 ```js
-import TheOneSDK from "the-one-api-sdk";
+import TheOneSDK from "rynoronha-the-one-sdk";
 
 const sdk = new TheOneSDK("your_access_token");
 
