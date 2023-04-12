@@ -66,7 +66,7 @@ const sdk = new TheOneSDK("your_access_token");
 
 (async () => {
   try {
-    const movieDetails = await sdk.getMovieDetails("The Two Towers");
+    const movieDetails = await sdk.getMovieDetails("The Two Towers", false);
 
     console.log(movieDetails);
   } catch (error) {
