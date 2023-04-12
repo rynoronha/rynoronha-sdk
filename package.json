@@ -1,6 +1,6 @@
 {
   "name": "rynoronha-the-one-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Node.js package that provides a simple interface for making requests to The One API, allowing you to easily retrieve information about the Lord of the Rings movies.",
   "type": "module",
   "scripts": {
