@@ -33,7 +33,7 @@ function TheOneSDK(accessToken) {
     let movieId = param;
 
     if (!isId) {
-      const moviesResponse = await makeApiRequest("movie", {
+      const moviesResponse = await makeApiRequest(`${ENDPOINTS.movie}`, {
         name: param,
       });
 
