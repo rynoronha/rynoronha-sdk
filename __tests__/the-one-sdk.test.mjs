@@ -33,7 +33,7 @@ describe("OneApi", () => {
       const movieName = "The Return of the King";
       const movieDetails = await theOne.getMovieDetails(movieName, false);
 
-      expect(movieDetails.name.toLowerCase()).toBe(movieName.toLowerCase);
+      expect(movieDetails.name.toLowerCase()).toBe(movieName.toLowerCase());
       expect(movieDetails.runtimeInMinutes).toBe(201);
       expect(movieDetails.budgetInMillions).toBe(94);
       expect(movieDetails.boxOfficeRevenueInMillions).toBe(1120);
